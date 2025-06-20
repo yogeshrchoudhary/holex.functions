@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "holex.reporting": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7071"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 33641,
+      "useSSL": false
+    }
+  }
+}
